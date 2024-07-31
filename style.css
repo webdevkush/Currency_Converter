@@ -1,0 +1,108 @@
+body {
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.container {
+    background: #ffffff33;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.heading h1 {
+    margin: 0 0 20px;
+}
+
+.amount input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.conversion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.fromCurr,
+.toCurr {
+    width: 48%;
+}
+
+h5 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #ffffffcc;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #ffffffcc;
+}
+
+.generate-btn input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #2575fc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.generate-btn input:hover {
+    background: #1e5bbf;
+}
+
+.result input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    background: #ffffffcc;
+    color: #333;
+}
+
+.marquee-container {
+    overflow: hidden;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 50px;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
